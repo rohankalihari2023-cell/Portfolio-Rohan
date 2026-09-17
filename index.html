@@ -1,0 +1,394 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rohan Kalihari | AI & Machine Learning Engineering</title>
+  <meta name="description" content="Portfolio of Rohan Kalihari — AI & Machine Learning Engineering undergraduate at SSIPMT Raipur. Specializing in Python, PyTorch, Transformers, NLP, and Vector Search." />
+
+  <!-- Fonts: Inter (Headers), Open Sans (Body), JetBrains Mono (Code/Accents) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Open+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Minimal Navbar -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="#" class="brand">
+        <span class="brand-title">Rohan Kalihari</span>
+        <span class="brand-sub">AI / ML Engineer</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="https://github.com/rohankalihari2023-cell" target="_blank" rel="noopener noreferrer" class="icon-btn" title="GitHub">
+          <i data-lucide="github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/rohan-kalihari-6ab867292" target="_blank" rel="noopener noreferrer" class="icon-btn" title="LinkedIn">
+          <i data-lucide="linkedin"></i>
+        </a>
+        <a href="mailto:rohan.kalihari2023@ssipmt.com" class="btn-accent-sm">Email</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="about">
+      <div class="hero-main reveal">
+        <div class="hero-status">
+          <span class="status-indicator"></span>
+          B.Tech AI & ML (2023–2027) • Raipur, India
+        </div>
+
+        <h1 class="hero-name">Rohan Kalihari</h1>
+        <div class="hero-typewriter">
+          <span class="prompt">&gt; </span>
+          <span id="type-text">AI & Machine Learning Engineer</span>
+          <span class="blink-cursor">|</span>
+        </div>
+
+        <p class="hero-summary">
+          Tech-driven engineering student proficient in <strong>Python</strong>, <strong>Machine Learning</strong>, and <strong>Natural Language Processing (NLP)</strong>. Experienced in building production-oriented applications using <strong>Django</strong> and <strong>Flask</strong>, with backend integration through <strong>SQL</strong>. Focused on <strong>Transformer models</strong>, <strong>Vector Search</strong>, and applied predictive systems.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#projects" class="btn-accent">View Projects</a>
+          <a href="https://github.com/rohankalihari2023-cell" target="_blank" rel="noopener noreferrer" class="btn-outline">
+            <i data-lucide="github"></i> GitHub Profile
+          </a>
+          <a href="https://www.linkedin.com/in/rohan-kalihari-6ab867292" target="_blank" rel="noopener noreferrer" class="btn-outline">
+            <i data-lucide="linkedin"></i> LinkedIn
+          </a>
+        </div>
+
+        <!-- HackerRank-Style Interactive Code Runner -->
+        <div class="hackerrank-card">
+          <div class="hr-header">
+            <div class="hr-tabs">
+              <span class="hr-tab active"><i data-lucide="code-2" style="width:13px; height:13px; display:inline;"></i> solution.py</span>
+            </div>
+            <button class="hr-run-btn" id="run-code-btn" onclick="executeCode()">
+              <i data-lucide="play" style="width:12px; height:12px; display:inline;"></i> Run Code
+            </button>
+          </div>
+          <div class="hr-body">
+            <div class="hr-line-numbers">1<br>2<br>3<br>4</div>
+            <pre class="hr-code"><code><span class="c-kw">def</span> <span class="c-fn">build_engineer</span>():
+    skills = [<span class="c-str">"PyTorch"</span>, <span class="c-str">"Transformers"</span>, <span class="c-str">"NLP"</span>, <span class="c-str">"Flask"</span>, <span class="c-str">"SQL"</span>]
+    <span class="c-kw">return</span> {<span class="c-str">"status"</span>: <span class="c-str">"Ready to innovate"</span>, <span class="c-str">"cgpa"</span>: <span class="c-num">6.5</span>}
+<span class="c-kw">print</span>(build_engineer())</code></pre>
+          </div>
+          <div class="hr-output" id="hr-output">
+            <span class="hr-dim">Click 'Run Code' to execute Python environment simulation...</span>
+          </div>
+        </div>
+
+        <div class="quick-specs">
+          <div class="spec-cell">
+            <span class="spec-val">SSIPMT</span>
+            <span class="spec-label">B.Tech 2023–2027</span>
+          </div>
+          <div class="spec-cell">
+            <span class="spec-val">6.5</span>
+            <span class="spec-label">Current CGPA</span>
+          </div>
+          <div class="spec-cell">
+            <span class="spec-val">94%</span>
+            <span class="spec-label">CBSE Class X</span>
+          </div>
+          <div class="spec-cell">
+            <span class="spec-val">6+</span>
+            <span class="spec-label">Verified Certs</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 1:1 Aspect Ratio Square Profile Photo -->
+      <div class="hero-aside reveal">
+        <div class="square-photo-wrapper">
+          <img src="assets/profile.jpg" alt="Rohan Kalihari" class="square-photo" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+      <div class="section-header reveal">
+        <span class="section-tag">PORTFOLIO</span>
+        <h2 class="section-title">Engineered Projects</h2>
+        <p class="section-desc">Machine Learning, NLP, and Transformer-based application architectures.</p>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-box hr-lift reveal">
+          <div class="project-meta">
+            <span class="accent-tag">Deep Learning / NLP</span>
+            <span class="mono-date">2024</span>
+          </div>
+          <h3 class="project-heading">Fake News Detection System</h3>
+          <p class="project-body">
+            An NLP pipeline that determines the veracity of news articles using machine learning and deep learning transformer models. The system extracts dense contextual embeddings, analyzes syntactic patterns, and classifies text against verified labeled datasets.
+          </p>
+          <div class="tag-row">
+            <span class="code-tag">Python</span>
+            <span class="code-tag">PyTorch</span>
+            <span class="code-tag">Transformers</span>
+            <span class="code-tag">NLP</span>
+            <span class="code-tag">Feature Extraction</span>
+          </div>
+          <a href="https://github.com/rohankalihari2023-cell" target="_blank" rel="noopener noreferrer" class="project-link">
+            <i data-lucide="github"></i> View Repository Code &rarr;
+          </a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-box hr-lift reveal">
+          <div class="project-meta">
+            <span class="accent-tag">Recruitment Tech / Flask</span>
+            <span class="mono-date">2024</span>
+          </div>
+          <h3 class="project-heading">Intelligent Resume Shortlisting System</h3>
+          <p class="project-body">
+            An automated candidate screening platform that evaluates candidate resumes against detailed job requirements. Employs natural language processing and cosine similarity scoring to rank applicant profiles, surfaced through a clean web-based HR dashboard.
+          </p>
+          <div class="tag-row">
+            <span class="code-tag">Python</span>
+            <span class="code-tag">spaCy</span>
+            <span class="code-tag">Flask</span>
+            <span class="code-tag">SQL</span>
+            <span class="code-tag">Scikit-learn</span>
+          </div>
+          <a href="https://github.com/rohankalihari2023-cell" target="_blank" rel="noopener noreferrer" class="project-link">
+            <i data-lucide="github"></i> View Repository Code &rarr;
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+      <div class="section-header reveal">
+        <span class="section-tag">COMPETENCIES</span>
+        <h2 class="section-title">Technical Skills</h2>
+        <p class="section-desc">Practical proficiency across core AI, backend frameworks, and data platforms.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-column hr-lift reveal">
+          <h4 class="skill-category">AI & Machine Learning</h4>
+          <ul class="skill-checklist">
+            <li><span class="check-mark">✓</span> PyTorch & Deep Learning</li>
+            <li><span class="check-mark">✓</span> Transformer Models</li>
+            <li><span class="check-mark">✓</span> Natural Language Processing (NLP)</li>
+            <li><span class="check-mark">✓</span> spaCy & Scikit-learn</li>
+            <li><span class="check-mark">✓</span> Predictive Modeling</li>
+            <li><span class="check-mark">✓</span> Time Series Analysis</li>
+          </ul>
+        </div>
+
+        <div class="skill-column hr-lift reveal">
+          <h4 class="skill-category">Languages & Frameworks</h4>
+          <ul class="skill-checklist">
+            <li><span class="check-mark">✓</span> Python (HackerRank Certified)</li>
+            <li><span class="check-mark">✓</span> Flask & Django Frameworks</li>
+            <li><span class="check-mark">✓</span> SQL Database Architecture</li>
+            <li><span class="check-mark">✓</span> C Language</li>
+            <li><span class="check-mark">✓</span> HTML5 & CSS3</li>
+            <li><span class="check-mark">✓</span> Git & GitHub Workflows</li>
+          </ul>
+        </div>
+
+        <div class="skill-column hr-lift reveal">
+          <h4 class="skill-category">Databases & Vector Engines</h4>
+          <ul class="skill-checklist">
+            <li><span class="check-mark">✓</span> MongoDB Vector Search</li>
+            <li><span class="check-mark">✓</span> Semantic Search Indexing</li>
+            <li><span class="check-mark">✓</span> MySQL (Advanced Certified)</li>
+            <li><span class="check-mark">✓</span> Database Normalization & Queries</li>
+            <li><span class="check-mark">✓</span> High-Dimensional Embeddings</li>
+          </ul>
+        </div>
+
+        <div class="skill-column hr-lift reveal">
+          <h4 class="skill-category">Data Science & Insights</h4>
+          <ul class="skill-checklist">
+            <li><span class="check-mark">✓</span> Pandas & NumPy Libraries</li>
+            <li><span class="check-mark">✓</span> Matplotlib & Seaborn</li>
+            <li><span class="check-mark">✓</span> Tableau Analytics</li>
+            <li><span class="check-mark">✓</span> Deloitte Australia Simulation</li>
+            <li><span class="check-mark">✓</span> Exploratory Data Analysis (EDA)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section" id="certifications">
+      <div class="section-header reveal">
+        <span class="section-tag">CREDENTIALS</span>
+        <h2 class="section-title">Licenses & Certifications</h2>
+      </div>
+
+      <div class="credential-list">
+        <div class="credential-row hr-lift reveal">
+          <div class="credential-info">
+            <span class="credential-name">Data Analytics Job Simulation</span>
+            <span class="credential-source">Deloitte Australia • Forage</span>
+          </div>
+          <span class="code-badge">Analytics</span>
+        </div>
+
+        <div class="credential-row hr-lift reveal">
+          <div class="credential-info">
+            <span class="credential-name">Generative AI Foundations: Advanced Techniques for IT</span>
+            <span class="credential-source">SkillSoft</span>
+          </div>
+          <span class="code-badge">GenAI</span>
+        </div>
+
+        <div class="credential-row hr-lift reveal">
+          <div class="credential-info">
+            <span class="credential-name">NLP Engineer Specialization (Deep Learning, LLMs, GenAI)</span>
+            <span class="credential-source">L&T EduTech</span>
+          </div>
+          <span class="code-badge">NLP Specialist</span>
+        </div>
+
+        <div class="credential-row hr-lift reveal">
+          <div class="credential-info">
+            <span class="credential-name">Introduction to AI and Vector Search</span>
+            <span class="credential-source">MongoDB University</span>
+          </div>
+          <span class="code-badge">Vector Search</span>
+        </div>
+
+        <div class="credential-row hr-lift reveal">
+          <div class="credential-info">
+            <span class="credential-name">Using Vector Search for Semantic Search</span>
+            <span class="credential-source">MongoDB University</span>
+          </div>
+          <span class="code-badge">Semantic Search</span>
+        </div>
+
+        <div class="credential-row hr-lift reveal">
+          <div class="credential-info">
+            <span class="credential-name">MySQL Advanced & Python Programming</span>
+            <span class="credential-source">HackerRank Certified</span>
+          </div>
+          <span class="code-badge">Certified</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section" id="education">
+      <div class="section-header reveal">
+        <span class="section-tag">BACKGROUND</span>
+        <h2 class="section-title">Education</h2>
+      </div>
+
+      <div class="education-stack">
+        <div class="edu-card hr-lift reveal">
+          <div class="edu-year">2023 – 2027</div>
+          <div class="edu-content">
+            <h3 class="edu-title">Bachelor of Technology — Artificial Intelligence & Machine Learning</h3>
+            <p class="edu-college">Shri Shankaracharya Institute Of Professional Management & Technology (SSIPMT), Raipur, C.G.</p>
+            <div class="edu-grade">CGPA: <strong>6.5</strong></div>
+          </div>
+        </div>
+
+        <div class="edu-card hr-lift reveal">
+          <div class="edu-year">2023</div>
+          <div class="edu-content">
+            <h3 class="edu-title">Class XII — CGBSE Board</h3>
+            <p class="edu-college">CG Govt. Higher Secondary School, Bohara, C.G.</p>
+            <div class="edu-grade">Percentage: <strong>71%</strong></div>
+          </div>
+        </div>
+
+        <div class="edu-card hr-lift reveal">
+          <div class="edu-year">2021</div>
+          <div class="edu-content">
+            <h3 class="edu-title">Class X — CBSE Board</h3>
+            <p class="edu-college">Saraswati Shishu Mandir School, Aamdi, C.G.</p>
+            <div class="edu-grade accent-grade">Percentage: <strong>94% Distinction</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+      <div class="contact-panel reveal">
+        <div class="contact-header">
+          <span class="section-tag">COMMUNICATION</span>
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-desc">Reach out for machine learning opportunities, internships, or engineering discussions.</p>
+        </div>
+
+        <div class="contact-matrix">
+          <a href="mailto:rohan.kalihari2023@ssipmt.com" class="contact-tile hr-lift">
+            <i data-lucide="mail"></i>
+            <div>
+              <span class="contact-role"></span>
+              <span class="contact-info-text">Email</span>
+            </div>
+          </a>
+
+          <a href="tel:+918305866680" class="contact-tile hr-lift">
+            <i data-lucide="phone"></i>
+            <div>
+              <span class="contact-role"></span>
+              <span class="contact-info-text">Phone</span>
+            </div>
+          </a>
+
+          <a href="https://www.linkedin.com/in/rohan-kalihari-6ab867292" target="_blank" rel="noopener noreferrer" class="contact-tile hr-lift">
+            <i data-lucide="linkedin"></i>
+            <div>
+              <span class="contact-role"></span>
+              <span class="contact-info-text">LinkedIn</span>
+            </div>
+          </a>
+
+          <a href="https://github.com/rohankalihari2023-cell" target="_blank" rel="noopener noreferrer" class="contact-tile hr-lift">
+            <i data-lucide="github"></i>
+            <div>
+              <span class="contact-role"></span>
+              <span class="contact-info-text">GitHub</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <span>© 2026 Rohan Kalihari • AI & Machine Learning Engineering</span>
+      <span>Raipur, Chhattisgarh, India</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
